@@ -2,7 +2,7 @@
 One click script for de-Amazonifying Amazon Fire tablets
 
 ## What it does
-This script is intended as a means to quickly and easily set up an out-of-the-package Amazon Kindle tablet. Be warned, the FireLauncher *is crippled by this script* - several things about it will no more work. You get an alternative launcher, though, and you can always go back via a factory reset. Here's what you get:
+This script is intended as a means to quickly and easily set up an out-of-the-package Amazon Fire tablet. Be warned, the FireLauncher *is crippled by this script* - several things about it will no more work. You get an alternative launcher, though, and you can always go back via a factory reset. Here's what you get:
 * OTA Updates are blocked
 * Lockscreen ads are removed
 * Functional Google Play Store and Google Go search are installed
