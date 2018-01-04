@@ -9,7 +9,7 @@ This script is intended as a means to quickly and easily set up an out-of-the-pa
 * Bloatware is removed from the tablet
 * Functional Nova Launcher, Adblocker (DNS66) and light Youtube Client (NewPipe) are installed
 
-Keep in mind this is only tested with an Amazon Fire 7 (2017 / 7th gen) on OS version 5.4.0.0 via Windows 10. It should work on other tablet versions, too. **It will not work on any version above** and there are better tools available for OS versions below v5.3.2.1 (= root).
+Keep in mind this is only tested with an Amazon Fire 7 (2017 / 7th gen) on OS version 5.4.0.0 via Windows 10. It should work on other Amazon tablet types, too. **It will not work on any version above** and there are better tools available for OS versions below v5.3.2.1 (= root).
 
 ## Prequisites
 This script expects [adb](https://adb.clockworkmod.com/) to be setup on your system and [Amazon Fire drivers](https://s3.amazonaws.com/android-sdk-manager/redist/kindle_fire_usb_driver.zip) to be installed. A more in depth explanation & troubleshooting [is found here](https://developer.amazon.com/de/docs/fire-tablets/ft-set-up-your-kindle-fire-tablet-for-testing.html#enable-adb-on-your-fire-tablet).
