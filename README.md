@@ -28,6 +28,7 @@ So, here's what you do, step by step.
 Several things you may need to know:
 * This is not root, and it's also not a proper launcher replacement. It is very close, though. At times the FireLauncher may shortly (less than 1sec) show up on the screen when the HOME button is pressed.
 * You can further customize this script to your needs by putting more apps inside the `apk` folder. Everything inside that folder will be auto-installed. You can also remove stuff from there, of course.
+* There may be some error messages when running this script - ignore them. The script may try to remove packages from your Fire 7 that don't exist on your device.
 * Amazon account setup is deliberately left functional, so you can still change the name of your tablet. The Amazon account will not be used in the current state of your tablet.
 * Other than [savvytechwinner's work](https://forum.xda-developers.com/amazon-fire/general/amazon-fire-utility-tool-bloat-removal-t3641151), this will leave `Clock`, `Calculator`, `Email` and `Calendar` functional. Personal choice here, I don't consider that bloat.
 * Widgets will not work. The original script had a supposed workaround that never worked for me, so I left it out. Widgets are not recommended on 1GB RAM devices anyways ¯\\_(ツ)_/¯.
