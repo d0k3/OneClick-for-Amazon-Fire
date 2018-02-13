@@ -11,15 +11,21 @@ This script is intended as a means to quickly and easily set up an out-of-the-pa
 
 Keep in mind this is only tested with an Amazon Fire 7 (2017 / 7th gen) on OS version 5.4.0.0 via Windows 10. It should work on other Amazon tablet types, too. **It will not work on any version above** and there are better tools available for OS versions below v5.3.2.1 (= root).
 
-## Prequisites
+## Prequisites (Windows)
 This script expects [adb](https://adb.clockworkmod.com/) to be setup on your system and [Amazon Fire drivers](https://s3.amazonaws.com/android-sdk-manager/redist/kindle_fire_usb_driver.zip) to be installed. A more in depth explanation & troubleshooting [is found here](https://developer.amazon.com/de/docs/fire-tablets/ft-set-up-your-kindle-fire-tablet-for-testing.html#enable-adb-on-your-fire-tablet).
+
+## Prequisites (Mac)
+Intall the platform tools: https://developer.android.com/studio/releases/platform-tools.html
+Or through the homebrew: brew cask install android-platform-tool
+A more in depth explanation & troubleshooting [is found here](https://developer.amazon.com/de/docs/fire-tablets/ft-set-up-your-kindle-fire-tablet-for-testing.html#enable-adb-on-your-fire-tablet).
+
 
 ## Out-of-the-package instructions
 So, here's what you do, step by step.
 * Power on your Fire tablet, do the initial setup. **DO NOT CONNECT TO WIFI**. Instead, select any password protected wifi, then cancel, and initial setup will let you continue without internet.
 * Enter `Settings` -> `Device options` -> click `Serial` 7 times. A new menu entrypoint called `Developer options` will pop up.
 * In `Developer options`, `enable ADB`, then connect your tablet to your computer. Confirm the fingerprint. If that didn't work, look [here](https://developer.amazon.com/de/docs/fire-tablets/ft-set-up-your-kindle-fire-tablet-for-testing.html#enable-adb-on-your-fire-tablet) for troubleshooting.
-* Now, extract the contents of this package somewhere on your computer and double click `FireOneClick.bat`.
+* Now, extract the contents of this package somewhere on your computer and double click `FireOneClick.bat` (Windows) or start `FireOneclick.sh` (Mac).
 * You can watch how Amazon's apps vanish, but it is recommended not to do anything else with your tablet while the script does its work.
 * After it's finished, enter `Settings` -> `Accesibility` -> enable `To detect home button press`. Then, open the `LauncherHijack` app and select `Nova Launcher`.
 * Open the `DNS66` app and start it. This will run in background (at low memory consumption) and block ads.
